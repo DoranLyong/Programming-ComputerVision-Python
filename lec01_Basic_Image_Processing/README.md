@@ -10,8 +10,7 @@
 
 
 
-### 1. ```PIL``` - The Python Imaging Library 
-* [colab](https://colab.research.google.com/github/DoranLyong/Programming-ComputerVision-Python/blob/main/lec01_Basic_Image_Processing/PIL_test.ipynb) 
+### 1. ```PIL``` - The Python Imaging Library ; [(colab)](https://colab.research.google.com/github/DoranLyong/Programming-ComputerVision-Python/blob/main/lec01_Basic_Image_Processing/PIL_test.ipynb) 
 <br/>
 
 Loading image:
@@ -55,7 +54,7 @@ out = pil_im.resize((128,128))
 out = pil_im.rotate(45)  # rotate 45 in counterclockwise 
 ```
 
-### 2. ```Matplotlib``` - [(colab)](https://colab.research.google.com/github/DoranLyong/Programming-ComputerVision-Python/blob/main/lec01_Basic_Image_Processing/Matplotlib_test.ipynb#scrollTo=6vyAV7gUEATO)
+### 2. ```Matplotlib``` ; [(colab)](https://colab.research.google.com/github/DoranLyong/Programming-ComputerVision-Python/blob/main/lec01_Basic_Image_Processing/Matplotlib_test.ipynb#scrollTo=6vyAV7gUEATO)
 * working with mathematics
 * plotting graphs 
 * drawing points, lines, and
