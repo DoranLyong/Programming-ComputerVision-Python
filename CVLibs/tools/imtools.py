@@ -5,12 +5,9 @@ logging.basicConfig(level=logging.INFO)   #(ref) https://hwangheek.github.io/201
 
 from PIL import Image
 
+logging.info(f"Import from : {__file__}")
 
-logging.info(__file__)
-
-
-
-def get_imlist(path):
+def get_imglist(path):
     """    Returns a list of filenames for 
         all jpg images in a directory. """
         
