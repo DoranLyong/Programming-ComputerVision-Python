@@ -8,6 +8,6 @@ setup(name='Programming-ComputerVision-Python',
         version='1.0',
         author='DoranLYong',
         url='https://github.com/DoranLyong/Programming-ComputerVision-Python',
-        packages=['CVLibs'],
+        packages=['CVLibs', 'CVLibs.tools'],
         requires=['NumPy', 'Matplotlib', 'SciPy'],
         )
