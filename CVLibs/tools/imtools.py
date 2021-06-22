@@ -1,4 +1,5 @@
 import os
+import os.path as osp
 import logging 
 logging.basicConfig(level=logging.INFO)   #(ref) https://hwangheek.github.io/2019/python-logging/
 
@@ -13,4 +14,4 @@ def get_imlist(path):
     """    Returns a list of filenames for 
         all jpg images in a directory. """
         
-    return [os.path.join(path,f) for f in os.listdir(path) if f.endswith('.jpg')]
+    return [osp.join(path, file) for file in os.listdir(path) if file.endswith('.jpg')]
